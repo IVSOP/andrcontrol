@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simulated v1.1 UI. Every value is fictional; no device capture or device data is used. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="412" height="940" viewBox="0 0 412 940" role="img" aria-labelledby="title description">
+  <title id="title">Simulated AndrControl interface</title>
+  <desc id="description">An illustrative preview of quiet volume at 3 percent with a minus 6.94 decibel reduction, built from vector shapes and example text.</desc>
+  <defs>
+    <style>
+      text { font-family: Roboto, Arial, sans-serif; fill: #EDF2EC; }
+      .secondary { fill: #9BAB9F; }
+      .mint { fill: #B8E8C3; }
+      .amber { fill: #EDC280; }
+      .medium { font-weight: 500; }
+      .stroke { fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+      .surface { fill: #19201C; stroke: #303B33; }
+    </style>
+    <symbol id="mixer" viewBox="0 0 24 24">
+      <path d="M5 3v18M12 3v18M19 3v18" class="stroke" />
+      <path d="M2 7h6v4H2zM9 14h6v4H9zM16 5h6v4h-6z" fill="currentColor" />
+    </symbol>
+    <symbol id="headphones" viewBox="0 0 24 24">
+      <path d="M4 12V11a8 8 0 0 1 16 0v1" class="stroke" />
+      <rect x="3" y="11" width="4" height="9" rx="2" class="stroke" />
+      <rect x="17" y="11" width="4" height="9" rx="2" class="stroke" />
+    </symbol>
+    <symbol id="music" viewBox="0 0 24 24">
+      <path d="M9 17V5l10-2v12" class="stroke" />
+      <ellipse cx="6" cy="17.5" rx="3" ry="2.5" class="stroke" />
+      <ellipse cx="16" cy="15.5" rx="3" ry="2.5" class="stroke" />
+    </symbol>
+    <symbol id="help" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="9" class="stroke" />
+      <path d="M9 9a3 3 0 1 1 4.5 2.6c-1 .6-1.5 1.1-1.5 2.4M12 18h.01" class="stroke" />
+    </symbol>
+    <symbol id="bolt" viewBox="0 0 24 24">
+      <path d="m14 2-9 11h6l-1 9 10-12h-7z" class="stroke" />
+    </symbol>
+  </defs>
+
+  <rect width="412" height="940" fill="#101513" />
+
+  <!-- Generic, invented system chrome. -->
+  <text x="24" y="23" font-size="12" class="medium">9:41</text>
+  <g fill="none" stroke="#EDF2EC" stroke-width="1.5" stroke-linecap="round">
+    <path d="M342 14q8-7 16 0m-13 3q5-4 10 0m-6 3h2" />
+    <rect x="369" y="10" width="18" height="10" rx="2" />
+    <path d="M389 13v4" />
+  </g>
+  <rect x="371" y="12" width="14" height="6" rx="1" fill="#EDF2EC" />
+
+  <rect x="22" y="51" width="44" height="44" rx="14" fill="#2C4031" />
+  <use href="#mixer" x="32" y="61" width="24" height="24" color="#B8E8C3" />
+  <text x="78" y="70" font-size="19" class="medium">AndrControl</text>
+  <text x="78" y="89" font-size="12" class="secondary">A little more volume control</text>
+  <use href="#help" x="355" y="63" width="22" height="22" color="#9BAB9F" />
+
+  <text x="22" y="151" font-size="28" class="medium">Volume control</text>
+  <rect x="325" y="128" width="65" height="27" rx="13.5" fill="#212924" />
+  <text x="357.5" y="145.5" text-anchor="middle" font-size="10" letter-spacing=".6" class="mint medium">QUIET</text>
+
+  <rect x="22" y="179" width="368" height="70" rx="18" fill="#19201C" />
+  <use href="#headphones" x="38" y="201" width="24" height="24" color="#B8E8C3" />
+  <text x="75" y="208" font-size="14" class="medium">This device</text>
+  <text x="75" y="227" font-size="11" class="secondary">Built-in audio · Android controls routing</text>
+  <path d="m366 207 5 6-5 6" fill="none" stroke="#9BAB9F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+
+  <rect x="22" y="263" width="368" height="352" rx="22" class="surface" />
+  <use href="#music" x="40" y="291" width="20" height="20" color="#B8E8C3" />
+  <text x="69" y="305" font-size="11" letter-spacing="1.3" class="secondary medium">MEDIA VOLUME</text>
+  <text x="350" y="305" font-size="12" text-anchor="middle" class="mint medium">Mute</text>
+
+  <path d="M51 389h18M343 389h18m-9-9v18" fill="none" stroke="#9BAB9F" stroke-width="1.6" stroke-linecap="round" />
+  <text x="206" y="414" font-size="70" font-weight="300" text-anchor="middle" class="mint">3%</text>
+  <text x="206" y="451" font-size="11.5" text-anchor="middle" class="secondary">−6.94 dB below the first hardware step</text>
+
+  <g fill="none" stroke-width="8" stroke-linecap="round">
+    <path d="M54 490h304" stroke="#303B33" />
+    <path d="M206 490h152" stroke="#433928" />
+    <path d="M54 490h4.56" stroke="#B8E8C3" />
+  </g>
+  <path d="M206 486v8" stroke="#101513" stroke-width="2" />
+  <circle cx="58.56" cy="490" r="11" fill="#B8E8C3" />
+  <circle cx="58.56" cy="490" r="3" fill="#19201C" />
+  <text x="48" y="528" font-size="11" class="secondary">0%</text>
+  <text x="206" y="528" font-size="11" text-anchor="middle" class="secondary">100%</text>
+  <text x="364" y="528" font-size="11" text-anchor="end" class="amber">200%</text>
+
+  <rect x="40" y="551" width="77" height="46" rx="11" fill="#212924" />
+  <rect x="125" y="551" width="77" height="46" rx="11" fill="#B8E8C3" />
+  <rect x="210" y="551" width="77" height="46" rx="11" fill="#212924" />
+  <rect x="295" y="551" width="77" height="46" rx="11" fill="#212924" />
+  <text x="78.5" y="579" font-size="13" text-anchor="middle" class="medium">1%</text>
+  <text x="163.5" y="579" font-size="13" text-anchor="middle" class="medium" style="fill:#101513">3%</text>
+  <text x="248.5" y="579" font-size="13" text-anchor="middle" class="medium">5%</text>
+  <text x="333.5" y="579" font-size="13" text-anchor="middle" class="medium">100%</text>
+
+  <rect x="22" y="629" width="368" height="224" rx="22" class="surface" />
+  <rect x="40" y="650" width="42" height="42" rx="12" fill="#212924" />
+  <use href="#bolt" x="49" y="659" width="24" height="24" color="#EDC280" />
+  <text x="94" y="665" font-size="15" class="medium">Fine volume &amp; boost</text>
+  <text x="94" y="685" font-size="11.5" class="mint">Output attenuation available</text>
+  <rect x="327" y="660" width="43" height="19" rx="9.5" fill="#303B33" />
+  <circle cx="360" cy="669.5" r="11" fill="#B8E8C3" />
+
+  <text x="40" y="722" font-size="12" class="secondary">
+    <tspan x="40">The shared output effect reduces the signal at</tspan>
+    <tspan x="40" dy="18">hardware step 1. Keep control running for quiet</tspan>
+    <tspan x="40" dy="18">playback in other apps. Stopping control</tspan>
+    <tspan x="40" dy="18">mutes media.</tspan>
+  </text>
+  <text x="123" y="826" text-anchor="middle" font-size="12" class="mint medium">Compatibility</text>
+  <path d="m266 816 8 5-8 5z" fill="none" stroke="#B8E8C3" stroke-width="1" />
+  <text x="311" y="826" text-anchor="middle" font-size="12" class="mint medium">Test sound</text>
+
+  <text x="24" y="891" font-size="16" class="medium">System mixer</text>
+  <text x="388" y="891" font-size="11" text-anchor="end" class="secondary">Android levels</text>
+  <rect x="22" y="907" width="368" height="40" rx="22" class="surface" />
+  <rect y="916" width="412" height="24" fill="#101513" />
+  <rect x="152" y="929" width="108" height="4" rx="2" fill="#9BAB9F" />
+</svg>

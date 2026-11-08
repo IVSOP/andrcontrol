@@ -2,6 +2,12 @@
 
 A native Android volume controller inspired by pavucontrol. Set media volume from **0 to 200%**, including software attenuation **below the first hardware step** on supported outputs. Android 9 or newer; no root, account, ads, or network permission.
 
+<p align="center">
+  <img src="docs/images/andrcontrol-preview.png" alt="Simulated AndrControl preview showing 3% media volume and quiet output attenuation" width="360" />
+  <br />
+  <sub>Simulated v1.1 interface with example values.</sub>
+</p>
+
 ## Use
 
 1. Install the debug APK or open this project in Android Studio and run it.
